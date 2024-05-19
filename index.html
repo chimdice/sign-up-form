@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./style.css" rel="stylesheet">
     <title>Sign-up</title>
+    <script src="./index.js" defer></script>
 </head>
 <body>
     <div id="left">
@@ -17,7 +18,7 @@
         </div>
         <div class="middle">
             <form>
-                <h1>Let's do this!</h1>
+                <h2>Let's do this!</h2>
                 <div class="inside-content">
                     <div class="input-container">
                         <div><label for="first-name">First Name</label></div>
@@ -36,17 +37,18 @@
 
                     <div class="input-container">
                         <div><label for="phone-number">Phone Number</label></div>
-                        <input type="text" id="phone-number" name="input-phone-number">
+                        <input type="text" id="phone-number" name="input-phone-number" pattern="[0-9]{10}">
                     </div>
 
                     <div class="input-container">
                         <div><label for="password">Password</label></div>
                         <input type="password" id="password" name="input-password">
+                        <div><p class="password-check"></p></div>
                     </div>
 
                     <div class="input-container">
-                        <div><label for="password">Confirm Password</label></div>
-                        <input type="password" id="password" name="input-password">
+                        <div><label for="password-confirm">Confirm Password</label></div>
+                        <input type="password" id="password-confirm" name="input-password">
                     </div>
                 </div>
             </form>
