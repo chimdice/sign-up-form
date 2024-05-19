@@ -1,0 +1,38 @@
+body {
+    display:flex;
+    height: 100vh;
+    margin:0px;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+
+/** Left side of webpage**/
+#left {
+    background-image: url(./images/_DSC5792\ 7_7_2022_.jpg);
+    background-size: 600px;
+    width: 30vw;
+}
+
+#left h1 {
+    background-color: rgba(0,0,0,0.4);
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+/** Right side of webpage**/
+#right {
+    background: gainsboro;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.middle {
+    background-color: white;
+}
